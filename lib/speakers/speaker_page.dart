@@ -135,7 +135,7 @@ class SpeakerPage extends StatelessWidget {
         },
         itemCount: speakers.length,
       ),
-      title: "Speakers",
+      title: "ຜູ່ບັນຍາຍ",
     );
   }
 }

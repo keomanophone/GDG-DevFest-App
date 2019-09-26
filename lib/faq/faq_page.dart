@@ -13,7 +13,7 @@ class FaqPage extends StatelessWidget {
           child: Text("Coming Soon"),
         ),
       ),
-      title: "FAQ",
+      title: "ຄໍາຖາມ",
     );
   }
 }

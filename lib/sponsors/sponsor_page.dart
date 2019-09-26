@@ -36,7 +36,7 @@ class SponsorPage extends StatelessWidget {
           )
         ],
       ),
-      title: "Sponsors",
+      title: "ຜູ່ສະໜັບສະໜູນ",
     );
   }
 }

@@ -69,6 +69,9 @@ flutter:
     - family: GoogleSans
       fonts:
         - asset: assets/fonts/GoogleSansRegular.ttf
+    - family: Noto
+      fonts:
+        - asset: assets/fonts/Noto Sans Lao Defago.ttf
   # fonts:
   #   - family: Schyler
   #     fonts:

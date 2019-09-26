@@ -18,7 +18,7 @@ class AgendaPage extends StatelessWidget {
     return DefaultTabController(
       length: 3,
       child: DevScaffold(
-        title: "Agenda",
+        title: "ຕາຕະລາງງານ",
         tabBar: TabBar(
           indicatorSize: TabBarIndicatorSize.label,
           indicatorColor: Tools.multiColors[Random().nextInt(4)],
@@ -28,23 +28,23 @@ class AgendaPage extends StatelessWidget {
           isScrollable: false,
           tabs: <Widget>[
             Tab(
-              child: Text("Cloud"),
+              child: Text("ວິຊາການ"),
               icon: Icon(
-                FontAwesomeIcons.cloud,
+                FontAwesomeIcons.code,
                 size: 12,
               ),
             ),
             Tab(
-              child: Text("Mobile"),
+              child: Text("ແຮງບັນດານໃຈ"),
               icon: Icon(
-                FontAwesomeIcons.mobile,
+                FontAwesomeIcons.lightbulb,
                 size: 12,
               ),
             ),
             Tab(
-              child: Text("Web & More"),
+              child: Text("Panelist"),
               icon: Icon(
-                FontAwesomeIcons.chrome,
+                FontAwesomeIcons.couch,
                 size: 12,
               ),
             )

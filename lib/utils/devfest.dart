@@ -3,12 +3,12 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 class Devfest {
   static const String app_name = "Devfest";
-  static const String app_version = "Version 1.0.4";
+  static const String app_version = "Version 1.0";
   static const int app_version_code = 1;
   static const String app_color = "#ffd7167";
   static Color primaryAppColor = Colors.white;
   static Color secondaryAppColor = Colors.black;
-  static const String google_sans_family = "GoogleSans";
+  static const String google_sans_family = "Noto";
   static bool isDebugMode = false;
 
   // * Url related
@@ -37,9 +37,11 @@ class Devfest {
   static const String banner_dark = "assets/images/banner_dark.png";
 
   //*  Texts
-  static const String welcomeText = "Welcome to GDG DevFest";
+  // static const String welcomeText = "Welcome to DevFest Vientiane 19";
+  static const String welcomeText = "ຍິນດີຕ້ອນຮັບສູ່ງານ";
+  static const String welcomeText1 = "DevFest Vientiane 19";
   static const String descText =
-      '''DevFests are community-led, developer events hosted by GDG chapters around the globe focused on community building & learning about Google’s technologies. Each DevFest is inspired by and uniquely tailored to the needs of the developer community and region that hosts it.''';
+      '''ງານ DevFest ເປັນງານທີ່ຈັດໂດຍກຸ່ມນັກພັດທະນາ GDG ໂດຍງານນີ້ຈະຈັດໃນຊ່ວງເວລາດຽວກັນທົ່ວໂລກ ເຊິ່ງຈຸດປະສົງຂອງງານກໍ່ເພື່ອສະໜັບສະໜູນກຸ່ມນັກພັດທະນາພາຍໃນ ເພື່ອແລກປ່ຽນ ແລະ ຮຽນຮູ້ທັກສະໃໝ່ໆ, ພ້ອມດຽວກັນນັ້ນຍັງເປັນບ່ອນພົບປະຂອງນັກພັດທະນາຈາກຫຼາຍສາຂາອາຊີບນໍາອີກດ້ວຍ.''';
 
   static const String loading_text = "Loading...";
   static const String try_again_text = "Try Again";
@@ -58,12 +60,19 @@ class Devfest {
       "It seems like your internet connection is not active.";
 
   //* ActionTexts
-  static const String agenda_text = "Agenda";
-  static const String speakers_text = "Speakers";
-  static const String team_text = "Team";
-  static const String sponsor_text = "Sponsors";
-  static const String faq_text = "FAQ";
-  static const String map_text = "Locate Us";
+  // static const String agenda_text = "Agenda";
+  // static const String speakers_text = "Speakers";
+  // static const String team_text = "Teams";
+  // static const String sponsor_text = "Sponsors";
+  // static const String faq_text = "FAQ";
+  // static const String map_text = "Map";
+
+  static const String agenda_text = "ຕາຕະລາງງານ";
+  static const String speakers_text = "ຜູ່ບັນຍາຍ";
+  static const String team_text = "ທີມງານ";
+  static const String sponsor_text = "ຜູ່ສະໜັບສະໜູນ";
+  static const String faq_text = "ຄໍາຖາມ";
+  static const String map_text = "ແຜນທີ່";
 
   //* Preferences
   static SharedPreferences prefs;

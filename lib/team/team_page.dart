@@ -132,7 +132,7 @@ class TeamPage extends StatelessWidget {
         },
         itemCount: teams.length,
       ),
-      title: "Team",
+      title: "ທີມງານ",
     );
   }
 }
